@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+main {
+
+}
+
+.bash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bash-console {
+    width: 80rem;
+    height: 40rem;
+    background-color: black;
+}
