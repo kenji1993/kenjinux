@@ -15,9 +15,7 @@
                 
                 document.getElementById('fechaYHora').innerHTML = dias[numeroDiaSemana] + ',' + fecha + ' de ' + meses[mes] + ',' + horas + ':' + minutos; 
                 
-                if(minutos < 10){
-                    minutos = "0" + minutos;
-                };
+                if(minutos < 10){minutos = "0" + minutos};
             };
 
                 actualizarHora();

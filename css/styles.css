@@ -94,6 +94,13 @@ ul li {
 .anclados {
     padding: 0.5rem;
     width: 25%;
+
+}
+.anclados ul li i {
+    transition: transform .2s;
+}
+.anclados ul li i:hover {
+    transform: scale(1.1);
 }
 .fa-terminal {
     color: white;
@@ -111,6 +118,7 @@ ul li {
     border: 0.001rem solid #b43812;
     font-size: 2.3rem;
 }
+
 .otros-iconos {
     width: 60%;
     display: flex;
