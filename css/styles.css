@@ -112,13 +112,18 @@ ul li {
     font-size: 2.3rem;
 }
 .otros-iconos {
-    width: 50%;
+    width: 55%;
     display: flex;
     justify-content: end;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 5rem;
 }
-.fecha {
-    width: 20%;
+.fechaYHora {
+    width: 15%;
     display: flex;
     justify-content: end;
+    line-height: 5rem;
+    color: white;
 }
 

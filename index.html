@@ -57,10 +57,29 @@
 
            </ul>
        </div>
-       <div class="fecha">
-           Lunes, 28 de septiembre, 10:56
+       <div class="fechaYHora" id="fechaYHora">
+        <span id="dia"></span>, <span id=""></span>
        </div>
     </footer>
+
+    <script>
+       (function() {
+            var actualizarHora = function() {
+                var fecha = new Date(),
+                    horas = fecha.getHours(),
+                    minutos = fecha.getMinutes(),
+                    diaSemana = fecha.getDay(),
+                    dia = fecha.getDate(),
+                    mes = fecha.getMonth(),
+                    year = fecha.getFullYear();
+
+                var pHoras = document.getElementById
+
+            };
+
+            actualizarHora();
+       }())
+      </script>
 
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/500df033a6.js " crossorigin="anonymous "></script>
