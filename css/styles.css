@@ -90,28 +90,35 @@ footer {
 ul li {
     list-style: none;
     display: inline;
-    
 }
-
+.anclados {
+    padding: 0.5rem;
+    width: 25%;
+}
 .fa-terminal {
     color: white;
     background-color: #201f1e;
-    padding: 0.5rem;
     border-radius: 1rem;
+    padding: 0.5rem;
     border: 0.001rem solid black;
     font-size: 2.3rem;
 }
 .fa-firefox-browser {
     color: white;
     background-color:#EB7228;
-    padding: 0.5rem;
     border-radius: 1rem;
+    padding: 0.5rem;
     border: 0.001rem solid #b43812;
     font-size: 2.3rem;
-    margin-top: 0.5rem;
 }
-.fa-window-maximize {
-    color: rgb(81, 163, 81);
-    font-size: 3.5rem;
-    
+.otros-iconos {
+    width: 50%;
+    display: flex;
+    justify-content: end;
 }
+.fecha {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}
+
