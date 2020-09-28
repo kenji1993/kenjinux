@@ -49,6 +49,9 @@ align-items: center;
 }
 .bash-options {
     width: 100%;
+    line-height: 5rem;
+    font-size: 1.2rem;
+    padding-left: 0.9rem;
 }
 .bash-options ul li {
     list-style: none;
