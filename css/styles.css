@@ -127,7 +127,7 @@ ul li {
 .otros-iconos {
     width: 60%;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     font-size: 1.5rem;
     color: white;
     line-height: 5rem;

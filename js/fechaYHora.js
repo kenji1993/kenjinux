@@ -12,10 +12,18 @@
 
                 let horas = hoy.getHours();
                 let minutos = hoy.getMinutes();
+
+                if(horas < 10) {
+                    horas = '0' + horas;
+                  };
+                  if(minutos < 10) {
+                      minutos = "0" + minutos;
+                  };
                 
                 document.getElementById('fechaYHora').innerHTML = dias[numeroDiaSemana] + ',' + fecha + ' de ' + meses[mes] + ',' + horas + ':' + minutos; 
                 
-                if(minutos < 10){minutos = "0" + minutos};
+              
+                
             };
 
                 actualizarHora();
