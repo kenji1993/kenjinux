@@ -95,11 +95,12 @@ ul li {
 }
 .anclados {
     padding: 0.5rem;
-    width: 25%;
+    width: 25%; 
 
 }
 .anclados ul li i {
     transition: transform .2s;
+   
 }
 .anclados ul li i:hover {
     transform: scale(1.1);
@@ -121,6 +122,9 @@ ul li {
     font-size: 1.5rem;
     color: white;
     line-height: 5rem;
+}
+.otros-iconos ul li i {
+    cursor: pointer;
 }
 .fechaYHora {
     width: 20%;
