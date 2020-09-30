@@ -53,50 +53,11 @@ align-items: center;
     width: 80vw;
     float: right;
 }
-
-
-.bash {  
-    width: 80rem;
-    height: 40rem;
-    
+.fa-times-circle {
+    color: #6c943f;
 }
-.bash-menu {
-    width: 100%;
-    height: 6.5rem;
-    background-color: #d8dad6;
-    
-}
-.bash-locate {
-    width: 100%;
-    font-size: 2rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-}
-.bash-locate-left {
-   padding-left: 10rem;
-}
-.bash-locate-right {
-  margin-right: 0.6rem;
-  cursor: pointer;
-  border-radius: 20rem;
-  
-}
-.bash-options {
-    width: 100%;
-    line-height: 5rem;
-    font-size: 1.2rem;
-    padding-left: 0.9rem;
-}
-.bash-options ul li {
-    list-style: none;
-    display: inline;
-    cursor: pointer;
-}
-.bash-console {
-    width: 100%;
-    height: 30rem;
-    background-color: rgba(62, 64, 61, 0.8);
+.fa-times-circle:hover {
+    color: #9cc76b;
 }
 
 footer {

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Basic Bash</title>
+    <!-- Hojas de estilos -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bash.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">  
 </head>
 <body>
@@ -21,6 +23,7 @@
                 </span>
             </div>
             <div class="right-desktop">
+                <!-- CONSOLA -->
                 <div v-show=showBash class="bash" id="bash">
                     <div class="bash-menu">
                         <div class="bash-locate">
@@ -28,7 +31,7 @@
                                 kenji@kenji-Satellite-L505:~/Escritorio
                             </div>
                             <div v-on:click="toggleShowBash" class="bash-locate-right">
-                                x
+                                <i class="fas fa-times-circle"></i>
                             </div>
                             
                         </div>
@@ -46,6 +49,7 @@
                     </div>
                     <div class="bash-console"></div>
                 </div>
+                <!-- CONSOLA -->
             </div>
         </div>
         
