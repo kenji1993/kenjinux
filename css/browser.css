@@ -1,3 +1,37 @@
 .browser {
-    
+    width: 80rem;
+    height: 40rem;
+    background-color: aqua;
+}
+.browser-header-title {
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(168, 165, 165);
+    text-align: center;
+}
+.browser-header-pestana {
+    width: 100%;
+    height: 3rem;
+    background-color:  rgb(206, 206, 206);
+}
+.browser-header-search {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(206, 206, 206);;
+}
+.browser-body {
+    width: 100%;
+    height: 31.5rem;
+    background-color: white;
+}
+.browser-body .browser-body-nav  .menu-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 3rem;
+    height: 3rem;
+}
+.browser-body .browser-body-nav img {
+    width: 3rem;
+    border-radius: 15rem;
 }
