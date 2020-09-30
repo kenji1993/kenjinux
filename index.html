@@ -24,7 +24,13 @@
                 <div v-show=showBash class="bash" id="bash">
                     <div class="bash-menu">
                         <div class="bash-locate">
-                            kenji@kenji-Satellite-L505:~/Escritorio
+                            <div class="bash-locate-left">
+                                kenji@kenji-Satellite-L505:~/Escritorio
+                            </div>
+                            <div v-on:click="toggleShowBash" class="bash-locate-right">
+                                x
+                            </div>
+                            
                         </div>
                         <div class="bash-options">
                             <ul>

@@ -70,6 +70,17 @@ align-items: center;
     width: 100%;
     font-size: 2rem;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.bash-locate-left {
+   padding-left: 10rem;
+}
+.bash-locate-right {
+  margin-right: 0.6rem;
+  cursor: pointer;
+  border-radius: 20rem;
+  
 }
 .bash-options {
     width: 100%;
@@ -80,6 +91,7 @@ align-items: center;
 .bash-options ul li {
     list-style: none;
     display: inline;
+    cursor: pointer;
 }
 .bash-console {
     width: 100%;
