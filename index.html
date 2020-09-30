@@ -13,8 +13,13 @@
         <h1>Super Basic Bash <i class="fas fa-terminal"></i></h1>
     </header>
 
-    <main>
-        <div class="bash">
+    <main  id="app">
+        <div class="desktop">
+            <div class=""></div>
+            <div></div>
+        </div>
+        <span v-on:click="toggleShowBash"><i class="fas fa-terminal"></i></span>
+        <div v-show=showBash class="bash" id="bash">
         <div class="bash-menu">
             <div class="bash-locate">
                 kenji@kenji-Satellite-L505:~/Escritorio
@@ -44,7 +49,6 @@
 
        <div class="anclados">
         <ul>
-            <li><i class="fas fa-terminal"></i></li>
             <li><a href="https://www.google.com" target="_blank"><i class="fab fa-firefox-browser"></i></i></a>
            </li>
         </ul>
@@ -63,7 +67,8 @@
        </div>
     </footer>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/bash.js"></script>
     <script src="js/main.js"></script>
     <script src="js/fechaYHora.js"></script>
     <script src="https://kit.fontawesome.com/500df033a6.js " crossorigin="anonymous "></script>
