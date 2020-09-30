@@ -32,9 +32,33 @@ justify-content: center;
 align-items: center;
 }
 
+.desktop {
+    width: 100vw;
+}
+.left-desktop {
+    width: 20vw;
+    float: left;
+}
+.fa-terminal {
+    color: white;
+    background-color: #201f1e;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: 0.001rem solid black;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.right-desktop {
+    width: 80vw;
+    float: right;
+}
+
+
 .bash {  
     width: 80rem;
     height: 40rem;
+    
 }
 .bash-menu {
     width: 100%;
@@ -107,15 +131,7 @@ ul li {
 .anclados ul li i:hover {
     transform: scale(1.1);
 }
-.fa-terminal {
-    color: white;
-    background-color: #201f1e;
-    border-radius: 1rem;
-    padding: 0.5rem;
-    border: 0.001rem solid black;
-    font-size: 2.3rem;
-    cursor: pointer;
-}
+
 .fa-firefox-browser {
     color: white;
     background-color:#EB7228;

@@ -15,29 +15,35 @@
 
     <main  id="app">
         <div class="desktop">
-            <div class=""></div>
-            <div></div>
-        </div>
-        <span v-on:click="toggleShowBash"><i class="fas fa-terminal"></i></span>
-        <div v-show=showBash class="bash" id="bash">
-        <div class="bash-menu">
-            <div class="bash-locate">
-                kenji@kenji-Satellite-L505:~/Escritorio
+            <div class="left-desktop">
+                <span v-on:click="toggleShowBash">
+                    <i class="fas fa-terminal"></i>
+                </span>
             </div>
-            <div class="bash-options">
-                <ul>
-                    <li>Archivo</li>
-                    <li>Editar</li>
-                    <li>Ver</li>
-                    <li>Buscar</li>
-                    <li>Terminal</li>
-                    <li>Ayuda</li>
-                    
-                </ul>
+            <div class="right-desktop">
+                <div v-show=showBash class="bash" id="bash">
+                    <div class="bash-menu">
+                        <div class="bash-locate">
+                            kenji@kenji-Satellite-L505:~/Escritorio
+                        </div>
+                        <div class="bash-options">
+                            <ul>
+                                <li>Archivo</li>
+                                <li>Editar</li>
+                                <li>Ver</li>
+                                <li>Buscar</li>
+                                <li>Terminal</li>
+                                <li>Ayuda</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bash-console"></div>
+                </div>
             </div>
         </div>
-        <div class="bash-console"></div>
-    </div>
+        
+      
     </main>
 
     <footer>
