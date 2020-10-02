@@ -46,25 +46,33 @@
     justify-content: center;
  
 }
-.google-search {
+.search-container {
     display: flex;
     justify-content: center;
 }
-.google-search-magnifyingGlass {
-    border: 0.1rem solid grey;
-    border-right: 0;
-    border-radius: 0.7rem;
+.google-search {
+    display: flex;
+    border: 0.1rem solid #7d8cac;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 2.5rem;
+}
+.google-search:hover {
+    box-shadow: 0 0.1rem 0.6rem 0 #20212447;
+    border-color: #dfe1e500;
 }
 
 .fa-search {
     color: grey;
     font-size: 1.3rem;
+    margin: 0.4rem;
 }
 
 .google-search-input input {
     border-radius: 0.7rem;
     height: 2.3rem;
-    border-left: 0;
+    border: none;
+    outline: none;
     
 }
 
