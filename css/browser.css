@@ -17,8 +17,15 @@
 .browser-header-search {
     width: 100%;
     height: 3rem;
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(206, 206, 206);;
 }
+
+.middle-header-search {
+    display: flex;
+}
+
 .browser-body {
     width: 100%;
     height: 31.5rem;
