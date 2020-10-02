@@ -46,9 +46,28 @@
     justify-content: center;
  
 }
-.google-logo {
-   
+.google-search {
+    display: flex;
+    justify-content: center;
 }
+.google-search-magnifyingGlass {
+    border: 0.1rem solid grey;
+    border-right: 0;
+    border-radius: 0.7rem;
+}
+
+.fa-search {
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.google-search-input input {
+    border-radius: 0.7rem;
+    height: 2.3rem;
+    border-left: 0;
+    
+}
+
 
 .browser-body .browser-body-nav  .menu-icon {
     background-repeat: no-repeat;
