@@ -24,6 +24,14 @@
 
 .middle-header-search {
     display: flex;
+    justify-content: space-between;
+    border: 0.1rem solid #7d8cac;
+    background: white;
+    width: 50rem;
+}
+.middle-header-search-middle input {
+    border: none;
+    outline: none;
 }
 
 .browser-body {
