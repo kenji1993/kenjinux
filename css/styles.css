@@ -49,6 +49,9 @@ align-items: center;
     cursor: pointer;
     margin-left: 2rem;
 }
+.left-desktop .fa-firefox-browser {
+    font-size: 3rem;
+}
 .right-desktop {
     width: 80vw;
     float: right;
