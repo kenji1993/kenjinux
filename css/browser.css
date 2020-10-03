@@ -3,12 +3,24 @@
     height: 40rem;
     background-color: aqua;
 }
+
 .browser-header-title {
     width: 100%;
     height: 2.5rem;
     background-color: rgb(168, 165, 165);
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
+.browser-header-title-titulo {
+    margin-left: 32rem;
+    margin-top: 0.6rem;
+    font-weight: 900;
+}
+.browser-header-title-iconos {
+    margin: 0.6rem;
+    font-size: 1rem;
+}
+
 .browser-header-pestana {
     width: 100%;
     height: 3rem;
@@ -54,6 +66,7 @@
 .browser-body-nav ul li {
     align-self: center;
     margin: 0.5rem;
+    cursor: pointer;
 }
 
 .browser-body-body {

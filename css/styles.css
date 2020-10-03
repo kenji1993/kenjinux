@@ -126,6 +126,9 @@ ul li {
 .otros-iconos ul li i {
     cursor: pointer;
 }
+.fas {
+    cursor: pointer;
+}
 .fechaYHora {
     width: 20%;
     display: flex;
