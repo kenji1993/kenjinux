@@ -31,21 +31,47 @@
     height: 3rem;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(206, 206, 206);;
+    background-color: rgb(206, 206, 206);
 }
-
+.left-header-search {
+    padding: 0.5rem;
+    font-size: 1.4rem;
+}
+.fa-arrow-left,
+.fa-arrow-right {
+    color: grey;
+}
 .middle-header-search {
     display: flex;
     justify-content: space-between;
     border: 0.1rem solid #7d8cac;
     background: white;
     width: 50rem;
+    margin-bottom: 0.4rem;
+    padding: 0.5rem;
+}
+.middle-header-search-left {
+    width: 10%;
+    color: grey;
+}
+.middle-header-search-middle {
+    width: 80%;
+    margin-left: -4rem;
+}
+.middle-header-search-right {
+    width: 10%;
 }
 .middle-header-search-middle input {
     border: none;
     outline: none;
 }
+.right-header-search {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+}
 
+/* BODY DEL NAVEGADOR */
 .browser-body {
     width: 100%;
     height: 31.5rem;
@@ -67,6 +93,9 @@
     align-self: center;
     margin: 0.5rem;
     cursor: pointer;
+}
+.body-nav-links:hover { 
+    text-decoration: underline;
 }
 
 .browser-body-body {
