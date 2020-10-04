@@ -3,7 +3,7 @@ new Vue ({
 
     data () {
         return {
-        showBash: false
+        showBash: true
         }
     },
 
