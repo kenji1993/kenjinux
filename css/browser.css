@@ -189,9 +189,22 @@
     color: rgba(0,0,0,.54);
     display: flex;
     justify-content: space-between;
+    padding-top: 0.4rem;
 
 }
-.browser-body-footer-about-left ul li {
-    
+.browser-body-footer-ubicacion p {
+    margin-left: 1rem;
+}
 
+.browser-body-footer-about-left ul li,
+.browser-body-footer-about-right ul li {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.browser-body-footer-about-left ul li:hover {
+    text-decoration: underline;
+}
+.browser-body-footer-about-right ul li:hover {
+    text-decoration: underline;
 }
