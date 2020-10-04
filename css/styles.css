@@ -23,9 +23,11 @@ header {
 
 h1 {
     font-size: 3rem;
-    color: #E7DDDD; 
+    color:white; 
 }
-
+.fa-ubuntu {
+    color: #e95420;
+}
 main {
 display: flex;
 justify-content: center;
