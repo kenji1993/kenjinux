@@ -2,6 +2,7 @@
     width: 80rem;
     height: 40rem;
     background-color: aqua;
+    position: absolute;
 }
 
 .browser-header-title {

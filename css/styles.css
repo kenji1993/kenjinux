@@ -15,9 +15,6 @@ body {
     background-size: 400% 400%;
     position: relative;
     animation: change 10s ease-in-out infinite;
-    /* background-image: url(../img/fondomint.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%; */
 }
 @keyframes change{
     0% {
