@@ -9,10 +9,28 @@ html {
     font-family: 'Roboto Mono', monospace;
 }
 body {
-    background-image: url(../img/fondomint.jpg);
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#2305ab );
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    /* background-image: url(../img/fondomint.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%; */
 }
+@keyframes change{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
 header {
     width: 100%;
     height: 10rem;
@@ -89,21 +107,21 @@ footer {
     box-sizing: content-box;
     
 }
-
 .logo {
-    width: 5%;
-    transition: transform .2s;
-}
-
-.logo:hover {
-    transform: scale(1.1);
-}
-
-.logo figure img{
     width: 4rem;
     height: 4rem;
-    margin: 0.5rem;
-    
+    background-color: #9cc76b;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5rem solid white;
+    border-radius: 15rem;
+    cursor: pointer;
+}
+.fa-kickstarter-k {
+    font-size: 2.5rem;
+    color: white;
 }
 
 ul li {
