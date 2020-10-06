@@ -27,7 +27,7 @@
                     <i class="fab fa-firefox-browser"></i>
                 </span>
                 <br>
-                <span>
+                <span v-on:click="toggleShowCalculator">
                     <i class="fas fa-calculator"></i>
                 </span>
             </div>
@@ -208,13 +208,17 @@
                     </div>
                 </div>
                 <!-- CALCULADORA -->
-                <div class="calculadora">
+                <div v-show="showCalculator" class="calculadora">
+                    <div v-on:click="toggleShowCalculator" class="table-x">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
                     <table>
                         <tr class="calculadora-visor">
                             <td>
                                 <output id="visor"></output>
                                 <br>
                             </td>
+                           
                         </tr>
                             <td>
                                 <button id="1">&nbsp; 1 &nbsp;</button>

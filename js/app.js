@@ -4,7 +4,8 @@ new Vue ({
     data () {
         return {
         showBash: false,
-        showBrowser: false
+        showBrowser: false,
+        showCalculator: false,
         }
     },
 
@@ -14,6 +15,9 @@ new Vue ({
         },
         toggleShowBrowser () {
             this.showBrowser = !this.showBrowser
+        },
+        toggleShowCalculator () {
+            this.showCalculator = !this.showCalculator
         }
     }
 })

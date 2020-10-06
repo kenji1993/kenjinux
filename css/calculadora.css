@@ -1,14 +1,24 @@
+.calculadora {
+    width: 36rem;
+    height: 35rem;
+    background-color: rgb(201, 194, 194);
+    border-radius: 1rem;
+    border: 0.1rem solid rgb(134, 128, 128);
+}
 table {
      width: 35rem;
      height: 35rem;
-     padding: 1rem;
-     background-color: rgb(201, 194, 194);
+     padding: 0.3rem;
      display: flex;
      justify-content: center;
      border-radius: 1rem;
-     border: 0.1rem solid rgb(134, 128, 128);
+     
  }
-
+.table-x .fa-times-circle {
+    margin-top: 0.5rem;
+    margin-left: 34rem;
+    font-size: 1.3rem;
+}
 .calculadora-visor {
      width: 20rem;
      height: 4rem;
