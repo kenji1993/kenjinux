@@ -55,6 +55,17 @@ align-items: center;
     font-size: 3rem;
     cursor: pointer;
 }
+.fa-calculator {
+    color: white;
+    background-color: #201f1e;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    border: 0.001rem solid black;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
 .right-desktop {
     width: 80vw;
     float: right;

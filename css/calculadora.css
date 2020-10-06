@@ -6,23 +6,32 @@ table {
      display: flex;
      justify-content: center;
      border-radius: 1rem;
+     border: 0.1rem solid rgb(134, 128, 128);
  }
 
 .calculadora-visor {
      width: 20rem;
      height: 4rem;
-     border: 0.1rem solid black;
      background-color: white;
  }
  .calculadora-visor td {
-     border: 0.1rem solid black;
+     border: 0.1rem solid rgb(134, 128, 128);
  }
-
 .calculadora-botones {
-    padding: 1.7rem;
+    margin-top: 1rem;
 }
 button {
     width: 6rem;
     height: 6rem;
-    margin: 0.1rem;
+    margin: 0.3rem;
+    border: 0.1rem solid #aca7a7;
+    cursor: pointer;
+    outline: none;
+}
+.equal {
+    background-color: rgb(57, 185, 57);
+    border: rgb(57, 185, 57);
+}
+button:hover {
+    background-color: rgb(95, 224, 95);
 }
