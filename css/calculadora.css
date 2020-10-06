@@ -1,0 +1,28 @@
+table {
+     width: 35rem;
+     height: 35rem;
+     padding: 1rem;
+     background-color: rgb(201, 194, 194);
+     display: flex;
+     justify-content: center;
+     border-radius: 1rem;
+ }
+
+.calculadora-visor {
+     width: 20rem;
+     height: 4rem;
+     border: 0.1rem solid black;
+     background-color: white;
+ }
+ .calculadora-visor td {
+     border: 0.1rem solid black;
+ }
+
+.calculadora-botones {
+    padding: 1.7rem;
+}
+button {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.1rem;
+}
